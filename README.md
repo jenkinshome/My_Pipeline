@@ -1,13 +1,11 @@
 # My_Pipeline
 pipeline {
-    agent any
-
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
+agent any
+stages {
+stage ('HELLO') {
+steps {
+echo "HELLO WORLD "
 }
-
+}
+}
+}
